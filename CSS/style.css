@@ -1,0 +1,25 @@
+/* Element selector and External CSS */
+h3{
+    color: blue;
+}
+
+/* Group selectors  */
+h4,div,p{
+    color: red;
+}
+
+/* class slector */
+.class_selector{
+    color: blueviolet;
+}
+
+/* Id_selector */
+#Id_selector{
+    color: rgb(180, 82, 111);
+}
+
+/* Universal Selector */
+*{
+    text-align: center;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,50 @@
+<html></html>
+    <head>
+        <style>
+          .child{
+            width: 200px;
+            height: 200px;
+          }
+          #c1{
+            background-color: yellowgreen;
+          }
+          #c2{
+            background-color: yellow;
+          }
+          #c3{
+            background-color: red;
+          }
+          #c4{
+            background-color: blue;
+          }
+          .container{
+            display: flex;
+            flex-direction:row;
+            /*flex direction=coloumn
+            flex direction=reverse
+            flex direction=row/coloumn reverse
+            flex direction=row
+            */
+            flex-wrap: wrap;
+            margin: 150;
+          }
+      
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+        </div>
+    </body>
+</html>

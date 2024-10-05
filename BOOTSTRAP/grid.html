@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .child{
+            width:100px;
+            height: 100px;
+            padding:100px;
+        }
+        #c1{
+            background-color: yellowgreen;
+        }
+        #c2{
+            background-color:red;
+        }
+        #c3{
+            background-color: blue;
+        }
+        #c4{
+            background-color: green;
+        }
+        .container{
+            display:grid;
+            grid-template-columns: repeat(4,1fr);
+            gap:20px;
+            justify-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+        <div id="c1" class="child">Child1</div>
+        <div id="c2" class="child">Child2</div>
+        <div id="c3" class="child">Child3</div>
+        <div id="c4" class="child">Child4</div>
+     </div>
+
+</body>
+</html>
